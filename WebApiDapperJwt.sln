@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiDapperJwt", "WebApiDapperJwt\WebApiDapperJwt.csproj", "{4D2830DE-B389-4C90-B27A-538D132C9309}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D1C10712-8124-4009-BDB1-D122A6D90458}"
+	ProjectSection(SolutionItems) = preProject
+		README.xml = README.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D2830DE-B389-4C90-B27A-538D132C9309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D2830DE-B389-4C90-B27A-538D132C9309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D2830DE-B389-4C90-B27A-538D132C9309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D2830DE-B389-4C90-B27A-538D132C9309}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB110497-BD52-47B9-BD60-830A5327A167}
+	EndGlobalSection
+EndGlobal

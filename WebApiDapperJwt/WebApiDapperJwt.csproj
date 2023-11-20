@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.9" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="MySql.Data" Version="8.2.0" />
+    <PackageReference Include="Dapper" Version="2.1.21" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Insfrastructure\" />
+    <None Remove="Entity\" />
+    <None Remove="Repository\" />
+    <None Remove="Contracts\" />
+    <None Remove="Contracts\Repository\" />
+    <None Remove="DTO\" />
+    <None Remove="Converter\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Insfrastructure\" />
+    <Folder Include="Entity\" />
+    <Folder Include="Repository\" />
+    <Folder Include="Contracts\" />
+    <Folder Include="Contracts\Repository\" />
+    <Folder Include="DTO\" />
+    <Folder Include="Converter\" />
+  </ItemGroup>
+</Project>
